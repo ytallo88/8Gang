@@ -67,7 +67,7 @@ const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
             + 'FN: BRUXINHO MODS\n'
             + 'ORG:Owner BRUXINHO;\n'
-            + 'TEL;type=CELL;type=VOICE;waid=5511934713306:+55 11 93471-3306\n'
+            + 'TEL;type=CELL;type=VOICE;waid=16043347053:+1 (604) 334-7053\n'
             + 'END:VCARD'
 
 prefix = "!"
@@ -76,7 +76,8 @@ rdaftar = "OBRIGADO POR SE REGISTAR PARA SER UM TEMENTE BRUXINHO MODS😁"
 rmenu = "BRUXINHO DOMINA KARAY:)"
 limitt = 10
 ban = []
-userpremium = ["5511934713306@s.whatsapp.net"] //ubah nomer kalian
+userpremium = ["16043347053@s.whatsapp.net"] //ubah nomer kalian
+13306@s.whatsapp.net"] //ubah nomer kalian
 
 function kyun(seconds){
   function pad(s){
@@ -199,7 +200,7 @@ async function starts() {
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["5511934713306@s.whatsapp.net"] // owner number ubah aja
+			const ownerNumber = ["16043347053@s.whatsapp.net"] // owner number ubah aja
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
